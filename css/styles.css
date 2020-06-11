@@ -35,6 +35,10 @@ body {
 .logo-web {
   color: var(--accent);
 }
+.list p {
+  margin: 0px;
+  padding: 0px;
+}
 .site-nav .link {
   color: var(--main-text);
   font-weight: 500;
@@ -60,7 +64,9 @@ body {
 }
 
 /* Main */
-
+.main {
+  text-align: center;
+}
 .main-title {
   /* color: var(--white-color); */
   font-weight: 900;
@@ -68,6 +74,8 @@ body {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .button {
   background-color: var(--accent);
@@ -76,13 +84,22 @@ body {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
 }
 .subtitle {
   color: var(--main-text);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14x;
+  line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .title {
   color: var(--main-text);
@@ -90,14 +107,21 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 .work-subtitle {
-  /* color: var(--white-color); */
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 370px;
+  margin: 0px;
 }
 .team-subtitle {
   color: var(--main-text);
@@ -105,6 +129,8 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-role {
   color: var(--secondary-text);
@@ -112,6 +138,10 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+.social-links {
+  margin: 16px 32px 24px 32px;
+  padding: 0px;
 }
 .social-links-item:hover,
 .social-links-item:focus {
@@ -148,6 +178,14 @@ body {
   font-size: 12px;
   line-height: 1.71;
   text-align: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Portfolio */
